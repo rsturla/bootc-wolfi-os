@@ -41,15 +41,11 @@ pipeline:
   - uses: autoconf/configure
     with:
       opts: |
-        --systemdsystemunitdir=${{targets.destdir}}/usr/lib/systemd/system \
-        --bashcompletiondir=${{targets.destdir}}/usr/share/bash-completion/completions \
-        --libdir=${{targets.destdir}}/usr/lib \
         --enable-dracut-cpio
 
   - uses: autoconf/make-install
     with:
       opts: |
-        libdir=${{targets.destdir}}/usr/lib \
         enable_documentation=no
 
   - uses: strip

@@ -3,3 +3,5 @@
 .tmp/
 .build/
 packages/**/packages
+**.spdx.json
+*.tar

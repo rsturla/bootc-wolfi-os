@@ -1,0 +1,45 @@
+contents:
+  keyring:
+    - https://packages.wolfi.dev/os/wolfi-signing.rsa.pub
+  repositories:
+    - https://packages.wolfi.dev/os
+    - ./packages/kernel/packages
+    - ./packages/dracut/packages
+  packages:
+    - ca-certificates-bundle
+    - wolfi-base
+    - bash
+    - kernel-core
+    - kernel-headers
+    - kernel-modules
+    - dracut
+    - util-linux-dev
+    - coreutils
+    - findmnt
+    - systemd
+    - udev
+    - posix-libc-utils
+    - mount
+    - umount
+    - losetup
+    - blkid
+    - util-linux-login
+    - zstd
+
+entrypoint:
+  command: /sbin/init
+
+archs:
+  - x86_64
+
+paths:
+  - path: /var/tmp
+    type: directory
+    permissions: 0o1777
+  - path: /boot
+    type: directory
+    permissions: 0o755
+  - path: /sbin/init
+    type: symlink
+    source: /usr/lib/systemd/systemd
+    permissions: 0o777
