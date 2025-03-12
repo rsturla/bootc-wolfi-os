@@ -1,0 +1,200 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "apko@latest": {
+      "last_modified": "2025-02-23T09:42:26Z",
+      "resolved": "github:NixOS/nixpkgs/2d068ae5c6516b2d04562de50a58c682540de9bf#apko",
+      "source": "devbox-search",
+      "version": "0.25.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/laimyfwgr7j0iffvzjjknyh3k8s4gjr7-apko-0.25.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/laimyfwgr7j0iffvzjjknyh3k8s4gjr7-apko-0.25.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hshk80lnfviv87wsi7f87d5h8vfd40sa-apko-0.25.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/hshk80lnfviv87wsi7f87d5h8vfd40sa-apko-0.25.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/c245qvlg5njl0yc6r4a9mb8fibh1zhxf-apko-0.25.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/c245qvlg5njl0yc6r4a9mb8fibh1zhxf-apko-0.25.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/c36s83zi5lg1wi4hw01q7x60z48q5sn4-apko-0.25.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/c36s83zi5lg1wi4hw01q7x60z48q5sn4-apko-0.25.1"
+        }
+      }
+    },
+    "bison@latest": {
+      "last_modified": "2025-02-07T11:26:36Z",
+      "resolved": "github:NixOS/nixpkgs/d98abf5cf5914e5e4e9d57205e3af55ca90ffc1d#bison",
+      "source": "devbox-search",
+      "version": "3.8.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/57zkngjmgx53a7myrpyrg42jk2xja34c-bison-3.8.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/57zkngjmgx53a7myrpyrg42jk2xja34c-bison-3.8.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/k4m5p5sbcxarvj9xyzp97hk7k4yk1v9x-bison-3.8.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/k4m5p5sbcxarvj9xyzp97hk7k4yk1v9x-bison-3.8.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cfw0ziiif6jcy1r0jd0xl752k8a7p3ri-bison-3.8.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/cfw0ziiif6jcy1r0jd0xl752k8a7p3ri-bison-3.8.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/wqv59hdxp3caslnj0gkjx3n6c2d33f0i-bison-3.8.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/wqv59hdxp3caslnj0gkjx3n6c2d33f0i-bison-3.8.2"
+        }
+      }
+    },
+    "flex@latest": {
+      "last_modified": "2025-02-07T11:26:36Z",
+      "resolved": "github:NixOS/nixpkgs/d98abf5cf5914e5e4e9d57205e3af55ca90ffc1d#flex",
+      "source": "devbox-search",
+      "version": "2.6.4",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7izp2nkbid12gddawwykc964npd7sc5p-flex-2.6.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/7izp2nkbid12gddawwykc964npd7sc5p-flex-2.6.4"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/v8nnlmgld66jjikq1hdarsnvrspjn6xz-flex-2.6.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/v8nnlmgld66jjikq1hdarsnvrspjn6xz-flex-2.6.4"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zfxr4mnjfw8m34mfsvc1pi9k6lvmb3sn-flex-2.6.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/zfxr4mnjfw8m34mfsvc1pi9k6lvmb3sn-flex-2.6.4"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zxnl6db6bl102idwkpjfnrcc9siqfww2-flex-2.6.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/zxnl6db6bl102idwkpjfnrcc9siqfww2-flex-2.6.4"
+        }
+      }
+    },
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "resolved": "github:NixOS/nixpkgs/de0fe301211c267807afd11b12613f5511ff7433?lastModified=1741310760&narHash=sha256-aizILFrPgq%2FW53Jw8i0a1h1GZAAKtlYOrG%2FA5r46gVM%3D"
+    },
+    "melange@latest": {
+      "last_modified": "2025-02-24T19:15:38Z",
+      "resolved": "github:NixOS/nixpkgs/39d921ecb8fc4028eb43d9a87bdeef55ff86fa9b#melange",
+      "source": "devbox-search",
+      "version": "0.20.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/nfnighyaf9in04nzi5pi6xgk8pw4bkyy-melange-0.20.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/nfnighyaf9in04nzi5pi6xgk8pw4bkyy-melange-0.20.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xs2r7xdfgg84zcl71l6mn7hdywwr8dav-melange-0.20.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/xs2r7xdfgg84zcl71l6mn7hdywwr8dav-melange-0.20.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/v478hq2flyml3lk1ncrmhy14r320x2cv-melange-0.20.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/v478hq2flyml3lk1ncrmhy14r320x2cv-melange-0.20.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/w5lc47nair11flkw0xgn3sb2x5qbpb4x-melange-0.20.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/w5lc47nair11flkw0xgn3sb2x5qbpb4x-melange-0.20.0"
+        }
+      }
+    }
+  }
+}

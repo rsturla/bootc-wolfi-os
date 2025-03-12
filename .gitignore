@@ -1,0 +1,5 @@
+.devbox/
+
+.tmp/
+.build/
+packages/**/packages
